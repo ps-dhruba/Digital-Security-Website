@@ -1,0 +1,147 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: "Inter";
+}
+.header{
+    background-image: url(./Images/banner.png);
+    background-size: cover;
+    background-position: center;
+}
+.navbar{
+    padding-top: 25px;
+}
+.navbar, .nav-items{
+    display : flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.nav-img{
+    height: 60px;
+}
+.nav-items{
+    gap: 35px;
+    cursor: pointer;
+}
+li{
+    font-size: 18px;
+    list-style: none;
+    color: #fb9d5c;
+}
+.header-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.header-p{
+    font-size: 20px;
+    color: #fb9d5c;
+    margin: 0px;
+    margin-bottom:5px;
+    letter-spacing: 2px;
+}
+.header-h1{
+    color: white;
+    font-size: 60px;
+    margin: 0px;
+}
+.h-btn-container{
+    margin-left: 30%;
+    margin-top: 30px;
+}
+.header-btn{
+    background-color: #fb9d5c;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.section-1{
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 120px;
+}
+.s1-img{
+    height: 100px;
+}
+.section-h{
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 5px;
+    font-weight: 400;
+}
+.center-img{
+    display: block;
+    margin: auto;
+}
+.center-p{
+    text-align: center;
+    margin: 0px;
+    margin-top: 5px;
+}
+.ticket-1{
+    display: flex;
+    justify-content: space-around;
+    padding: 25px 150px;
+    gap: 60px;
+}
+.tickets{
+    border: 1px solid gray;
+    padding: 20px;
+    border-radius: 2px;
+}
+.h3-center{
+    text-align: center;
+}
+
+
+.s3{
+    display: flex;
+    justify-content: space-around;
+    padding: 60px 70px;
+    padding-bottom: 0px;
+    gap: 50px;
+}
+.s3-r{
+    padding-top: 70px;
+}
+.s3-btn{
+    background-color: #0DCAF0;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+.s3-hdr{
+    font-size: 50px;
+    font-weight: 400;
+    margin: 10px 0px;
+}
+.s3-color{
+    color: #FB9D5C;
+}
+.s3-para{
+    font-weight: 300;
+}
+.s3-footer{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+.s3-phone{
+    height: 40px;
+}
+
+.ftr{
+    background-color: black;
+    color: white;
+    display: flex;
+    padding: 50px;
+    gap: 30px;
+}
+.ftr-1{
+    width: 30%;
+}
+.ftr-2, .ftr-3, .ftr-4{
+    width: 14%;
+}
