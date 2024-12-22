@@ -4,7 +4,7 @@ body{
     font-family: "Inter";
 }
 .header{
-    background-image: url(./Images/banner.png);
+    background-image: url(Images/banner.png);
     background-size: cover;
     background-position: center;
 }
